@@ -88,7 +88,7 @@ export default function Home() {
     <main
       className={'text-black flex-col flex'}
     >
-       <h1>Upload an Image</h1>
+       <h1>Upload an Image!</h1>
         <input type="file" accept="image/*" onChange={handleFileInputChange} />
          
         <button type="button" className="w-32 border-2 border-black-500 bg-gray-200" onClick={handleDownloadClick}>download</button>
