@@ -20,8 +20,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Clear npm cache
-      run: npm cache clean
+    - name: npm cache verify
+      run: npm cache verify
     
     - name: Install Dependencies
       run: npm ci
